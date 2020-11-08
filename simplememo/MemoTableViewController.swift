@@ -32,7 +32,7 @@ class MemoTableViewController: UITableViewController {
          if self.userDefaults.object(forKey: "memos") != nil {
                    self.memos = self.userDefaults.stringArray(forKey: "memos")!
                } else {
-                   self.memos = ["まゆげじお", "F-chan", "D-matsuo"]
+            self.memos = ["やること","課題","買うもの"]
                }
         }
 
